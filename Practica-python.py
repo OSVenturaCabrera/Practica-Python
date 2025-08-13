@@ -12,7 +12,8 @@ print("hola perros " +  str(nombre))
 # --------------------------------
 # Ejercicio 2: Edad en un mensaje
 # --------------------------------
-
+nombre = input("ingresar nombre")
+print("hola perros " +  str(nombre))
 # --------------------------------
 # Ejercicio 3: Nombre y edad juntos
 # --------------------------------
