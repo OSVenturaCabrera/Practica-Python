@@ -6,6 +6,9 @@
 # --------------------------------
 # Ejercicio 1: Hola nombre
 # Pide el nombre al usuario y lo muestra con un saludo
+saludo = input("Hola, como te llamas? ")
+print("Hola " + saludo)
+
 # --------------------------------
 
 # --------------------------------
