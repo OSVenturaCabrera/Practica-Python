@@ -1,6 +1,6 @@
-# =============================
-# Ejercicios básicos de Python Alex
-# Variables, print() e input()
+# ============================= ALEXANDER
+# Ejercicios básicos de Python 
+# Variables, print() e input(
 # =============================
 
 # --------------------------------
