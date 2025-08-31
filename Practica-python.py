@@ -1,5 +1,5 @@
 # =============================
-# Ejercicios básicos de Python
+# Ejercicios básicos de Python ORlin
 # Variables, print() e input()
 # =============================
 
