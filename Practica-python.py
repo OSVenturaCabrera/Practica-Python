@@ -1,5 +1,5 @@
 # =============================
-# Ejercicios básicos de Python
+# Ejercicios básicos de Python Paul
 # Variables, print() e input()
 # =============================
 
