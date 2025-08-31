@@ -1,5 +1,5 @@
 # =============================
-# Ejercicios básicos de Python
+# Ejercicios básicos de Python Alex
 # Variables, print() e input()
 # =============================
 
