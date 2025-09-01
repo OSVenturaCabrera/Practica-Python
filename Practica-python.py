@@ -103,9 +103,7 @@ print("son: " + str(peso))
 # --------------------------------
 print("Ejercicio 13: Saludo personalizado")
 nombre = input("Cual es tu nombre: ")
-print(str(nombre) + " Que saldo tu quieres: ")
-razon = input("Por que? ")
-print("sr. " + str(nombre) + " Si esa esa la razon: " + str(razon) + ", tiene su saldo")
+print("Hola " + nombre + ", bienvenido al grupo de Pyhton.")
 
 
 # --------------------------------
