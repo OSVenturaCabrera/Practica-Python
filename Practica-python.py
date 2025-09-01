@@ -100,6 +100,17 @@ def Repetir_texto():
 # Ejercicio 9: Área de un rectángulo
 # --------------------------------
 
+def Area_rectángulo():
+    print("Area de un Rectángulo:")
+    # la formula del area de un rectangulo
+    # siempre sera "Base x Altura" y ya.
+    Base = float(input("Ingrese la Base de su rectángulo: "))
+    Altura = float(input("Ingrese la Altura de su rectángulo: "))
+    Area = Base * Altura
+    print("Base:", Base)
+    print("Altura:", Altura)
+    print("El Area de tu Rectangulo es igual a:" , Area)
+
 # --------------------------------
 # Ejercicio 10: Área de un triángulo
 # --------------------------------
@@ -164,4 +175,6 @@ def Repetir_texto():
 
 # Concatenar()
 
-Repetir_texto()
+# Repetir_texto()
+
+Area_rectángulo()
