@@ -7,6 +7,7 @@
 # Ejercicio 1: Hola nombre
 # Pide el nombre al usuario y lo muestra con un saludo
 def Hola_nombre():
+    """Pide y muestra el nombre del usuario"""
     print("Mostrar el Nombre del usuario:")
     # aqui pedi el nombre por la funcion 'input'
     saludo = input("Hola, como te llamas? ")
@@ -19,6 +20,7 @@ def Hola_nombre():
 # --------------------------------
 
 def Edad_user():
+    """Pide y muestra la edad del usuario"""
     print("Mostrar la edad del usuario:")
     # vuelvo a pedir un valor en un 'input' dentro de un 'int'
     # 'int' es para hacer la conversion de 'string a int'
@@ -30,6 +32,7 @@ def Edad_user():
 # --------------------------------
 
 def Nombre_y_Edad():
+    """Pide y muestra el nombre y la edad del usuario"""
     print("Mostrar Nombre_y_Edad:")
     # en esta parte yo reutilizo el codigo 
     # ya existente para hacer una sola funcion.
@@ -42,6 +45,7 @@ def Nombre_y_Edad():
 # --------------------------------
 
 def Suma():
+    """Pide y suma dos numeros ingresados por el usuario :)"""
     print("Suma de numeros:")
     num1 = int(input("Ingrese su primer numero: "))
     num2 = int(input("Ingrese su segundo numero: "))
@@ -53,6 +57,7 @@ def Suma():
 # --------------------------------
 
 def Multiplicacion():
+    """Pide y multiplica dos numeros ingresados por el usuario"""
     print("Multiplicacion de numeros:")
     num1 = int(input("Ingrese su primer numero: "))
     num2 = int(input("Ingrese su segundo numero: "))
@@ -64,6 +69,7 @@ def Multiplicacion():
 # --------------------------------
 
 def Resta():
+    """Pide y resta dos numeros ingresados por el usuario"""
     print("Resta de numeros:")
     num1 = int(input("Ingrese su primer numero: "))
     num2 = int(input("Ingrese su segundo numero: "))
@@ -75,6 +81,7 @@ def Resta():
 # --------------------------------
 
 def Concatenar():
+    """Funcion para unir las cadenas de texto"""
     print("Concatenar texto:")
     txt1 = input("Ingresa tu primer texto: ")
     txt2 = input("Ingresa tu primer texto: ")
@@ -89,6 +96,7 @@ def Concatenar():
 # --------------------------------
 
 def Repetir_texto():
+    """Repite un texto por una cantidad determinada"""
     print("Repetir texto:")
     texto = input("Ingresa tu texto a repetir: ")
     cantidad = int(input("Cuantas veces quieres repetirlo? "))
@@ -101,9 +109,8 @@ def Repetir_texto():
 # --------------------------------
 
 def Area_rectángulo():
+    """la formula del area de un rectangulo siempre sera "Base x Altura" y ya"""
     print("Area de un Rectángulo:")
-    # la formula del area de un rectangulo
-    # siempre sera "Base x Altura" y ya.
     Base = float(input("Ingrese la Base de su rectángulo: "))
     Altura = float(input("Ingrese la Altura de su rectángulo: "))
     Area = Base * Altura
@@ -114,6 +121,17 @@ def Area_rectángulo():
 # --------------------------------
 # Ejercicio 10: Área de un triángulo
 # --------------------------------
+
+def Area_triangulo():
+    """ la formula del area de un triángulo siempre sera "(Base x Altura) ÷ 2" y ya."""
+    print("Area de un triángulo:")
+    Base = float(input("Ingrese la Base de su rectángulo: "))
+    Altura = float(input("Ingrese la Altura de su rectángulo: "))
+    Area = float((Base * Altura) / 2) # hice una conversion para los decimales, en dado caso.
+    print("Base:", Base)
+    print("Altura:", Altura)
+    print("El Area de tu Rectangulo es igual a:" , Area)
+
 
 # --------------------------------
 # Ejercicio 11: Metros a centímetros
