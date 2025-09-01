@@ -150,6 +150,17 @@ def Metros_a_centímetros():
 # (ejemplo: 1 dólar = 58 pesos)
 # --------------------------------
 
+def dolares_a_pesos():
+    """Convierte una cantidad de dolares 
+    a su equivalente a pesos dominicanos."""
+    print("Conversor de dólares a pesos")
+    # le pongo 'int' en vez de float porque el ejericio dice '58' 
+    # osea un numero entero, asi que por esa razon no uso 'float' para numeros decimales.
+    dolar = int(input("Cuantos dolares tienes? : "))
+    pesos = dolar * 58
+    print(f"Si tienes unos {dolar} dolares")
+    print(f"Entonces posees unos {pesos} pesos.")
+
 # --------------------------------
 # Ejercicio 13: Saludo personalizado
 # --------------------------------
@@ -203,4 +214,6 @@ def Metros_a_centímetros():
 
 # Repetir_texto()
 
-Area_rectángulo()
+# Area_rectángulo()
+
+dolares_a_pesos()
