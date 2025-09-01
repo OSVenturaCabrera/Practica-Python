@@ -13,6 +13,8 @@ print ("Hello " + nombre)
 # --------------------------------
 # Ejercicio 2: Edad en un mensaje
 # --------------------------------
+edad = input ("How old are you ?")
+print ("Youre are" + edad + "Years old ")
 
 # --------------------------------
 # Ejercicio 3: Nombre y edad juntos
