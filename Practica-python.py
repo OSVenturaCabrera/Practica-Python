@@ -71,6 +71,15 @@ def Resta():
 # Ejercicio 7: Concatenación de cadenas
 # --------------------------------
 
+def Concatenar():
+    txt1 = input("Ingresa tu primer texto: ")
+    txt2 = input("Ingresa tu primer texto: ")
+    c = txt1 + txt2
+    print(c) # caso 1
+    print(txt1 + txt2) # caso 2
+    print(txt1, txt2) # caso 3
+    print(f"{txt1} {txt2}") # caso 4
+
 # --------------------------------
 # Ejercicio 8: Repetición de texto
 # --------------------------------
@@ -139,4 +148,6 @@ def Resta():
 
 # Multiplicacion()
 
-Resta()
+# Resta()
+
+Concatenar()
