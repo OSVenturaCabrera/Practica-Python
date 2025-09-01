@@ -12,7 +12,8 @@ print("Klk " + nombre)
 # --------------------------------
 # Ejercicio 2: Edad en un mensaje
 # --------------------------------
-
+edad = input("Cuale es tu edad para no darte una galleta")
+print("Como tienes " + edad + "años, no te doy una galleta")
 # --------------------------------
 # Ejercicio 3: Nombre y edad juntos
 # --------------------------------
