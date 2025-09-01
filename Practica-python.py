@@ -6,14 +6,22 @@
 # --------------------------------
 # Ejercicio 1: Hola nombre
 # Pide el nombre al usuario y lo muestra con un saludo
-saludo = input("Hola, como te llamas? ")
-print("Hola " + saludo)
+def Hola_nombre():
+    # aqui pedi el nombre por la funcion 'input'
+    saludo = input("Hola, como te llamas? ")
+    print("Hola " + saludo) # muestro el mensaje
 
 # --------------------------------
 
 # --------------------------------
 # Ejercicio 2: Edad en un mensaje
 # --------------------------------
+
+def Edad_user():
+    # vuelvo a pedir un valor en un 'input' dentro de un 'int'
+    # 'int' es para hacer la conversion de 'string a int'
+    edad = int(input("Ingrese su edad: "))
+    print(f"Tienes unos {edad} años de edad")
 
 # --------------------------------
 # Ejercicio 3: Nombre y edad juntos
@@ -90,3 +98,8 @@ print("Hola " + saludo)
 # --------------------------------
 # Ejercicio 20: Mini encuesta
 # --------------------------------
+
+
+# Pruebas:
+Hola_nombre()
+Edad_user()
