@@ -61,6 +61,11 @@ print("La concatenacion es: " + Contatenacion)
 # --------------------------------
 # Ejercicio 8: Repetición de texto
 # --------------------------------
+print("Ejercicio 8: Repetición de texto")
+texto = input("Dame un texto: ")
+veces = int(input("Cuantas veces Quieres que se repita: "))
+Repe = texto * veces
+print(Repe)
 
 # --------------------------------
 # Ejercicio 9: Área de un rectángulo
