@@ -7,6 +7,7 @@
 # Ejercicio 1: Hola nombre
 # Pide el nombre al usuario y lo muestra con un saludo
 def Hola_nombre():
+    print("Mostrar el Nombre del usuario:")
     # aqui pedi el nombre por la funcion 'input'
     saludo = input("Hola, como te llamas? ")
     print("Hola " + saludo) # muestro el mensaje
@@ -18,6 +19,7 @@ def Hola_nombre():
 # --------------------------------
 
 def Edad_user():
+    print("Mostrar la edad del usuario:")
     # vuelvo a pedir un valor en un 'input' dentro de un 'int'
     # 'int' es para hacer la conversion de 'string a int'
     edad = int(input("Ingrese su edad: "))
@@ -28,6 +30,7 @@ def Edad_user():
 # --------------------------------
 
 def Nombre_y_Edad():
+    print("Mostrar Nombre_y_Edad:")
     # en esta parte yo reutilizo el codigo 
     # ya existente para hacer una sola funcion.
     Hola_nombre()
@@ -72,6 +75,7 @@ def Resta():
 # --------------------------------
 
 def Concatenar():
+    print("Concatenar texto:")
     txt1 = input("Ingresa tu primer texto: ")
     txt2 = input("Ingresa tu primer texto: ")
     c = txt1 + txt2
@@ -83,6 +87,14 @@ def Concatenar():
 # --------------------------------
 # Ejercicio 8: Repetición de texto
 # --------------------------------
+
+def Repetir_texto():
+    print("Repetir texto:")
+    texto = input("Ingresa tu texto a repetir: ")
+    cantidad = int(input("Cuantas veces quieres repetirlo? "))
+    for i in range(cantidad):
+        print(i+1, "- " , texto)
+    print("Se ha repetido '" , texto , "'" ,  cantidad , "veces")
 
 # --------------------------------
 # Ejercicio 9: Área de un rectángulo
@@ -150,4 +162,6 @@ def Concatenar():
 
 # Resta()
 
-Concatenar()
+# Concatenar()
+
+Repetir_texto()
