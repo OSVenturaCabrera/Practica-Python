@@ -7,7 +7,8 @@
 # Ejercicio 1: Hola nombre
 # Pide el nombre al usuario y lo muestra con un saludo
 # --------------------------------
-
+nombre = input("¿Cuál es tu nombre? ")
+print("Klk " + nombre)
 # --------------------------------
 # Ejercicio 2: Edad en un mensaje
 # --------------------------------
