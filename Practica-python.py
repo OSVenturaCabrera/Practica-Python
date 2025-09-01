@@ -38,6 +38,13 @@ def Nombre_y_Edad():
 # Nota: convertimos a int para poder sumar
 # --------------------------------
 
+def Suma():
+    print("Suma de numeros:")
+    num1 = int(input("Ingrese su primer numero: "))
+    num2 = int(input("Ingrese su segundo numero: "))
+    r = num1 + num2
+    print(f"resultado: {num1} + {num2} = {r}")
+
 # --------------------------------
 # Ejercicio 5: Multiplicación
 # --------------------------------
@@ -106,8 +113,9 @@ def Nombre_y_Edad():
 # --------------------------------
 
 
-# Pruebas:
-Hola_nombre()
-Edad_user()
-# nombre y edad funcionan perfectamente como 1 :)
-Nombre_y_Edad()
+# # Pruebas:
+# Hola_nombre()
+# Edad_user()
+# # nombre y edad funcionan perfectamente como 1 :)
+# Nombre_y_Edad()
+Suma()
