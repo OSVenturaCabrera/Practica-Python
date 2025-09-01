@@ -70,7 +70,11 @@ print(Repe)
 # --------------------------------
 # Ejercicio 9: Área de un rectángulo
 # --------------------------------
-
+print("Ejercicio 9: Área de un rectángulo")
+base = input("Cual es la base: ")
+altu = input("Altura: ")
+area =  base * altu
+print("EL area es: " + str(area))
 # --------------------------------
 # Ejercicio 10: Área de un triángulo
 # --------------------------------
