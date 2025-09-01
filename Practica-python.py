@@ -104,12 +104,13 @@ print("son: " + str(peso))
 print("Ejercicio 13: Saludo personalizado")
 nombre = input("Cual es tu nombre: ")
 print("Hola " + nombre + ", bienvenido al grupo de Pyhton.")
-
-
 # --------------------------------
 # Ejercicio 14: Número al cuadrado
 # --------------------------------
-
+print("Ejercicio 14: Numero al cuadrado")
+num = int(input("Dame un numero: "))
+cuadrado = num ** 2
+print("El numero al cuadrado es: " + str(cuadrado))
 # --------------------------------
 # Ejercicio 15: Promedio de tres números
 # --------------------------------
