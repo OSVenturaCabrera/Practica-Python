@@ -44,6 +44,11 @@ print("La multiplicacion es: " + str(multi))
 # --------------------------------
 # Ejercicio 6: Resta
 # --------------------------------
+print("Ejercicio 6: Resta")
+num1 = int(input("Dame un número: "))
+num2 = int(input("Dame otro número: "))     
+resta = num1 - num2
+print("La resta es: " + str(resta))
 
 # --------------------------------
 # Ejercicio 7: Concatenación de cadenas
