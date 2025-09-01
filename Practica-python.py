@@ -101,6 +101,12 @@ print("son: " + str(peso))
 # --------------------------------
 # Ejercicio 13: Saludo personalizado
 # --------------------------------
+print("Ejercicio 13: Saludo personalizado")
+nombre = input("Cual es tu nombre: ")
+print(str(nombre) + " Que saldo tu quieres: ")
+razon = input("Por que? ")
+print("sr. " + str(nombre) + " Si esa esa la razon: " + str(razon) + ", tiene su saldo")
+
 
 # --------------------------------
 # Ejercicio 14: Número al cuadrado
