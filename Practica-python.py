@@ -35,6 +35,11 @@ print("La suma es: " + str(suma))
 # --------------------------------
 # Ejercicio 5: Multiplicación
 # --------------------------------
+print('Ejercicio 5: Multiplicación')
+num1 = int(input("Numero 1: "))
+num2 = int(input("Numero 2: "))
+multi = num1 * num2
+print("La multiplicacion es: " + str(multi))
 
 # --------------------------------
 # Ejercicio 6: Resta
