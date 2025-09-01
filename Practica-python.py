@@ -27,7 +27,11 @@ print('hola ' + nombre + ' tienes ' + edad + ' años')
 # Ejercicio 4: Suma de dos números
 # Nota: convertimos a int para poder sumar
 # --------------------------------
-
+print("Ejercicio 4: Suma de dos números")
+num1 = int(input("Dame un número: "))
+num2 = int(input("Dame otro número: ")) 
+suma = num1 + num2
+print("La suma es: " + str(suma))
 # --------------------------------
 # Ejercicio 5: Multiplicación
 # --------------------------------
