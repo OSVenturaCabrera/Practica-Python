@@ -137,6 +137,14 @@ def Area_triangulo():
 # Ejercicio 11: Metros a centímetros
 # --------------------------------
 
+def Metros_a_centímetros():
+    """Convierte Metros a Centimetros, La formula para caulcula M a C es 
+    "M * 100", ya que en cada metro hay 100 centimetros."""
+    print("Metros a centímetros")
+    Metros = float(input("Ingrese la cantidad de metros a convertir: "))
+    Centimetros = Metros * 100
+    print(f"Si tenemos unos {Metros} metros, entonces hay {Centimetros} centimetros")
+
 # --------------------------------
 # Ejercicio 12: Conversor de dólares a pesos
 # (ejemplo: 1 dólar = 58 pesos)
