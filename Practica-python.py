@@ -176,6 +176,13 @@ def Saludo_personal():
 # Ejercicio 14: Número al cuadrado
 # --------------------------------
 
+def Potencia_cuadrada():
+    """Muestra la Potencia cuadrado de un numero, 
+    osea el resultado de un numero al multiplicarse por si mismo."""
+    num = float(input("Ingresa el numero a elevar a la potencia cuadrada: "))
+    cuadrado = num ** 2 # ** es igual a decir "num elevado a la 2"
+    print(f"El cuadrado de {num} es igual a {cuadrado}")
+
 # --------------------------------
 # Ejercicio 15: Promedio de tres números
 # --------------------------------
@@ -225,4 +232,6 @@ def Saludo_personal():
 
 # dolares_a_pesos()
 
-Saludo_personal()
+# Saludo_personal()
+
+Potencia_cuadrada()
