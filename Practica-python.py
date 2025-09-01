@@ -78,7 +78,11 @@ print("EL area es: " + str(area))
 # --------------------------------
 # Ejercicio 10: Área de un triángulo
 # --------------------------------
-
+print("Ejercicio 10: Area de un triangulo")
+base = int(input("Base: "))
+Altura = int(input("Altura: "))
+area = (base * Altura) / 2
+print("El area es: " + str(area))
 # --------------------------------
 # Ejercicio 11: Metros a centímetros
 # --------------------------------
