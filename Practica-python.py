@@ -27,6 +27,12 @@ def Edad_user():
 # Ejercicio 3: Nombre y edad juntos
 # --------------------------------
 
+def Nombre_y_Edad():
+    # en esta parte yo reutilizo el codigo 
+    # ya existente para hacer una sola funcion.
+    Hola_nombre()
+    Edad_user()
+
 # --------------------------------
 # Ejercicio 4: Suma de dos números
 # Nota: convertimos a int para poder sumar
@@ -103,3 +109,5 @@ def Edad_user():
 # Pruebas:
 Hola_nombre()
 Edad_user()
+# nombre y edad funcionan perfectamente como 1 :)
+Nombre_y_Edad()
