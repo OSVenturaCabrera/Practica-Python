@@ -54,11 +54,18 @@ def Multiplicacion():
     num1 = int(input("Ingrese su primer numero: "))
     num2 = int(input("Ingrese su segundo numero: "))
     r = num1 * num2
-    print(f"resultado: {num1} + {num2} = {r}")
+    print(f"resultado: {num1} x {num2} = {r}")
 
 # --------------------------------
 # Ejercicio 6: Resta
 # --------------------------------
+
+def Resta():
+    print("Resta de numeros:")
+    num1 = int(input("Ingrese su primer numero: "))
+    num2 = int(input("Ingrese su segundo numero: "))
+    r = num1 - num2
+    print(f"resultado: {num1} - {num2} = {r}")
 
 # --------------------------------
 # Ejercicio 7: Concatenación de cadenas
@@ -130,4 +137,6 @@ def Multiplicacion():
 
 # Suma()
 
-Multiplicacion()
+# Multiplicacion()
+
+Resta()
