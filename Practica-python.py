@@ -86,7 +86,10 @@ print("El area es: " + str(area))
 # --------------------------------
 # Ejercicio 11: Metros a centímetros
 # --------------------------------
-
+print("Ejercicio 11: Metros a centímetros")
+metro = float(input("metros: "))
+centi = metro * 100
+print("Los centimetros son: " + str(centi))
 # --------------------------------
 # Ejercicio 12: Conversor de dólares a pesos
 # (ejemplo: 1 dólar = 58 pesos)
