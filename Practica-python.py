@@ -109,12 +109,17 @@ print("Hola " + nombre + ", bienvenido al grupo de Pyhton.")
 # --------------------------------
 print("Ejercicio 14: Numero al cuadrado")
 num = int(input("Dame un numero: "))
-cuadrado = num ** 2
+cuadrado = num ** 2 #Este ejercicio lo hice con el auto clompletar de VSCode
 print("El numero al cuadrado es: " + str(cuadrado))
 # --------------------------------
 # Ejercicio 15: Promedio de tres números
 # --------------------------------
-
+print("Ejercicio 15: Promedio de tres números")
+num1 = float(input("Numero 1: "))
+num2 = float(input("Numero 2: "))       
+num3 = float(input("Numero 3: "))
+promedio = (num1 + num2 + num3) / 3
+print("El promedio es: " + str(promedio))
 # --------------------------------
 # Ejercicio 16: Perímetro de un cuadrado
 # --------------------------------
