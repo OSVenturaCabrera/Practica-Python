@@ -165,6 +165,13 @@ def dolares_a_pesos():
 # Ejercicio 13: Saludo personalizado
 # --------------------------------
 
+def Saludo_personal():
+    """Muestra un saludo personalizado por el propio usuario....."""
+    print("Saludo personalizado")
+    # aqui no se si tengo que pedir el nombre nuevamente, asi que lo interprete asi al final :V
+    saludo_propio = input("Ingresa un saludo personalizado para que te lo envie: \n")
+    print(saludo_propio)
+
 # --------------------------------
 # Ejercicio 14: Número al cuadrado
 # --------------------------------
@@ -216,4 +223,6 @@ def dolares_a_pesos():
 
 # Area_rectángulo()
 
-dolares_a_pesos()
+# dolares_a_pesos()
+
+Saludo_personal()
