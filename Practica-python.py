@@ -53,7 +53,11 @@ print("La resta es: " + str(resta))
 # --------------------------------
 # Ejercicio 7: Concatenación de cadenas
 # --------------------------------
-
+prinnt("Ejercicio 7: Concatenación de cadenas")
+cadena1 = input("Dame una cadena: ")
+cadena2 = input("Dame otra cadena: ") 
+Contatenacion = cadena1 + cadena2
+print("La concatenacion es: " + Contatenacion)
 # --------------------------------
 # Ejercicio 8: Repetición de texto
 # --------------------------------
