@@ -94,7 +94,10 @@ print("Los centimetros son: " + str(centi))
 # Ejercicio 12: Conversor de dólares a pesos
 # (ejemplo: 1 dólar = 58 pesos)
 # --------------------------------
-
+print("Ejercicio 12")
+dolar = float(input("Dolares: "))
+peso = dolar * 58
+print("son: " + str(peso))
 # --------------------------------
 # Ejercicio 13: Saludo personalizado
 # --------------------------------
