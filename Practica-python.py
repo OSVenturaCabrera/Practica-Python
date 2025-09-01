@@ -7,17 +7,22 @@
 # Ejercicio 1: Hola nombre
 # Pide el nombre al usuario y lo muestra con un saludo
 # --------------------------------
+print("Ejercicio 1: Hola nombre")
 nombre = input("¿Cuál es tu nombre? ")
 print("Klk " + nombre)
 # --------------------------------
 # Ejercicio 2: Edad en un mensaje
 # --------------------------------
+print("Ejercicio 2: Edad en un mensaje")
 edad = input("Cuale es tu edad para no darte una galleta")
 print("Como tienes " + edad + "años, no te doy una galleta")
 # --------------------------------
 # Ejercicio 3: Nombre y edad juntos
 # --------------------------------
-
+print("Ejercicio 3: Nombre y edad juntos")
+nombre = input("¿Cuál es tu nombre? ")
+edad = input("¿Cuál es tu edad? ")  
+print('hola ' + nombre + ' tienes ' + edad + ' años')
 # --------------------------------
 # Ejercicio 4: Suma de dos números
 # Nota: convertimos a int para poder sumar
