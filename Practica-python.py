@@ -218,6 +218,16 @@ def Perimetro_cuadrado():
 # Fórmula: F = C * 9/5 + 32
 # --------------------------------
 
+def Celsius_to_Fahrenheit():
+    """Esta funcion te debuelve el valor la cantidad de grados 
+    Celsius ingresada por el usuario a su equivalente a Fahrenheit"."""
+    print("Convertir de Celsius a Fahrenheit:")
+    # para la conversion puedemos usar tanto 'float' como 
+    # 'int' pero use el primero por un tema de presicion.
+    Celsius = float(input("Ingrese su cantidad de grados en Celcius para convertirla a Fahrenheit :"))
+    Fahrenheit = (Celsius * 9/5) + 32 # copie la formula dada solo cambie 'c' por 'Celsius' :v
+    print(f"Tus {Celsius}° Celsius son unos {Fahrenheit}° Fahrenheit")
+
 # --------------------------------
 # Ejercicio 18: Calcular sueldo semanal
 # --------------------------------
@@ -259,4 +269,6 @@ def Perimetro_cuadrado():
 
 # Mostrar_promedio()
 
-Perimetro_cuadrado()
+# Perimetro_cuadrado()
+
+Celsius_to_Fahrenheit()
