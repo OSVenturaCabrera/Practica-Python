@@ -155,3 +155,9 @@ print("La suma de las edades es: " + str(suma_edades))
 # --------------------------------
 # Ejercicio 20: Mini encuesta
 # --------------------------------
+print("Ejercicio 20")
+nombre = input("Nombre: ")
+edad = int(input("Edad: "))
+ciudad = input("Ciudad: ")
+print("Hola " + nombre + ", tienes " + str(edad) + " años y vives en " + ciudad + ".")  
+# --------------------------------
