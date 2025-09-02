@@ -14,32 +14,40 @@ print ("Hello " + nombre)
 # Ejercicio 2: Edad en un mensaje
 # --------------------------------
 edad = input ("How old are you ?")
-print ("Youre are" + edad + "Years old ")
+print ("Youre are " + edad + " Years old ")
 
 # --------------------------------
 # Ejercicio 3: Nombre y edad juntos
 # --------------------------------
-print ("Hello "+ nombre + "youre are " + edad + "Years old")
-
+print ("Estas en el ejercicio 3: Nombre y la Edad.")
+Nombre = input ("Cual es tu nombre ? ")
+Edad = input ("Cual es tu edad ? ")
+print ("Hola " + nombre + " tienes " + edad + " de edad ")
 # --------------------------------
 # Ejercicio 4: Suma de dos números
 # Nota: convertimos a int para poder sumar
 # --------------------------------
+print ("SUMA DE DOS NUMEROS")
 num1 = int (input ( "Introduce el primer numero: "))
-num2 = int ( input ( "Introduce el segundo numero:"))
+num2 = int ( input ( "Introduce el segundo numero: "))
 suma = num1 + num2
-print ( "La suma es:" + str (Suma))
+print ( "La suma es:" + str (suma))
 # --------------------------------
 # Ejercicio 5: Multiplicación
 # --------------------------------
+print ("EJERCICIO DE MULTIPLICACION")
 num1 = int (input ("Introduce el primer numero: "))
 num2 = int (input ("Introduce el segundo numero: "))
 Multiplicacion = num1 * num2
-print ("La multiplicacion es: " * str (Multiplicacion))
+print (f"La multiplicacion es:  {Multiplicacion}") # vaina q me dio brega eta degracia
 # --------------------------------
 # Ejercicio 6: Resta
 # --------------------------------
-
+print("EJERCICIO DE RESTA")
+num1 = int ( input ( "Introduce el primer numero: "))
+num2 = int ( input ( "Introduce el segundo numero: "))
+resta = num1 - num2
+print (f"La resta es: {resta}")
 # --------------------------------
 # Ejercicio 7: Concatenación de cadenas
 # --------------------------------
