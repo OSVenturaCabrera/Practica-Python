@@ -47,9 +47,13 @@ print("EJERCICIO DE RESTA")
 num1 = int ( input ( "Introduce el primer numero: "))
 num2 = int ( input ( "Introduce el segundo numero: "))
 resta = num1 - num2
-print (f"La resta es: {resta}")
+print (f"La resta es: {resta}") 
 # --------------------------------
 # Ejercicio 7: Concatenación de cadenas
+print ("EJERCICIO 7")
+cadena1 = input ("Primera palabra: ")
+cadena2 = input ("segunda palabra: ")
+print (f"La concatetacion es: {cadena1} { cadena2}")
 # --------------------------------
 
 # --------------------------------
