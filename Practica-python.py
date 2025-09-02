@@ -235,7 +235,7 @@ def Celsius_to_Fahrenheit():
 def Calcular_sueldo_semanal():
     """Esta funcion te debuelve el calculo 
     del total de tu salario mensual."""
-    print("Convertir de Celsius a Fahrenheit:")
+    print("Calcular sueldo semanal:")
     Sueldo_mes = 4000 # esto simularan unos 4,000$ siendo el 'suelo' del mes
     # dividimos lo que gano al anio por 52 porque en 1 anio hay 52 semanas en total.
     Sueldo_semanal = (Sueldo_mes * 12) / 52 
@@ -245,6 +245,15 @@ def Calcular_sueldo_semanal():
 # --------------------------------
 # Ejercicio 19: Suma de edades
 # --------------------------------
+
+def Sumar_edades():
+    """Esta funcion te debuelve la suma de 
+    dos edades ingresadas por el usuario"""
+    print("Suma de edades")
+    edad1 = int(input("Ingrese su primera edad en años: "))
+    edad2 = int(input("Ingrese su segunda edad en años: "))
+    suma = edad1 + edad2
+    print(f"La suma entre estas dos edades da un total de : {suma} años")
 
 # --------------------------------
 # Ejercicio 20: Mini encuesta
@@ -283,4 +292,6 @@ def Calcular_sueldo_semanal():
 
 # Celsius_to_Fahrenheit()
 
-Calcular_sueldo_semanal()
+# Calcular_sueldo_semanal()
+
+Sumar_edades()
