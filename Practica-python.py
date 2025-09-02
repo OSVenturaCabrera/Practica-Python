@@ -19,6 +19,8 @@ print ("Youre are" + edad + "Years old ")
 # --------------------------------
 # Ejercicio 3: Nombre y edad juntos
 # --------------------------------
+print ("Hello "+ nombre + "youre are " + edad + "Years old")
+
 
 # --------------------------------
 # Ejercicio 4: Suma de dos números
