@@ -259,6 +259,22 @@ def Sumar_edades():
 # Ejercicio 20: Mini encuesta
 # --------------------------------
 
+def Encuesta():
+    """Esta funcion pretende simular una encuesta en la terminal 
+    con opciones y presionando numeros para simular botones"""
+    print("Mini encuesta:")
+    fruta = ["Manzana", "Pera", "Melon"]
+    print("Presione el numero dicha fruta para votar por ella:")
+    for i in range(len(fruta)):
+        print(f"{i+1}. {fruta[i]}")
+    voto = int(input("Cual frutas quieres? "))
+    if voto == 1:
+        print("Ha votado por la" , fruta[0])
+    elif voto == 2:
+        print("Ha votado por la" , fruta[1])
+    elif voto == 3:
+        print("Ha votado por el" , fruta[2])
+    # intente poner un else pero no me deja.3
 
 # # Pruebas:
 # Hola_nombre()
@@ -294,4 +310,6 @@ def Sumar_edades():
 
 # Calcular_sueldo_semanal()
 
-Sumar_edades()
+# Sumar_edades()
+
+# Encuesta()
