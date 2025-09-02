@@ -146,6 +146,11 @@ print("El sueldo semanal es: " + str(semana))
 # --------------------------------
 # Ejercicio 19: Suma de edades
 # --------------------------------
+print("Ejercicio 19")
+edad1 = int(input("Edad 1: "))      
+edad2 = int(input("Edad 2: "))
+suma_edades = edad1 + edad2         
+print("La suma de las edades es: " + str(suma_edades))
 
 # --------------------------------
 # Ejercicio 20: Mini encuesta
