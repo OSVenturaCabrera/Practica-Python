@@ -59,7 +59,12 @@ print (f"La concatetacion es: {cadena1} { cadena2}")
 # --------------------------------
 # Ejercicio 8: Repetición de texto
 # --------------------------------
+print ("Ejercicio 8 REPETIR TEXTO")
+tex1 = input ("Introduce el texto a repetir:")
+veces = int ( input ( "Cuantas veces lo repetiras ?: "))
 
+for i in range (veces): #Siempre necesitara un numero entero.
+ print (tex1) #Mi ultimo ejercicio por la noche de hoy.
 # --------------------------------
 # Ejercicio 9: Área de un rectángulo
 # --------------------------------
