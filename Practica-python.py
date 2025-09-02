@@ -139,7 +139,10 @@ print("Fahrenheit: " + str(f))
 # --------------------------------
 # Ejercicio 18: Calcular sueldo semanal
 # --------------------------------
-
+print("Ejercicio 18")
+Sueldo = int(Input("Sueldo"))
+semana = sueldo / 4
+print("El sueldo semanal es: " + str(semana))
 # --------------------------------
 # Ejercicio 19: Suma de edades
 # --------------------------------
