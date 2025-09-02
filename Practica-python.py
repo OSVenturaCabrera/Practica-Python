@@ -132,7 +132,10 @@ print("El perimetro es: " + str(ORlin))
 # Celsius a Fahrenheit
 # Fórmula: F = C * 9/5 + 32
 # --------------------------------
-
+print("Ejercicio 17")
+c = int(input("Celsius: "))
+f = c * 9/5 + 32
+print("Fahrenheit: " + str(f))
 # --------------------------------
 # Ejercicio 18: Calcular sueldo semanal
 # --------------------------------
