@@ -203,6 +203,15 @@ def Mostrar_promedio():
 # Ejercicio 16: Perímetro de un cuadrado
 # --------------------------------
 
+def Perimetro_cuadrado():
+    """Esta funcion debuelve el valor del Perimetro de un cuadrado 
+    dados por el usuario, "un 'cuadrado' simepre tiene 4 lados"."""
+    print("Perímetro de un cuadrado:")
+    longitud = float(input("Cual es la longitud de los lados de tu cuadrado en CM? : "))
+    perimetro = longitud * 4 # repito, el 4 es porque simpre tiene 4 lados, es un valor constante.
+    print(f"El perimetro de tu cuadrado de {longitud} cm de longitud")
+    print("El perimetro es igual a :" , perimetro , "cm")
+
 # --------------------------------
 # Ejercicio 17: Conversor de temperatura
 # Celsius a Fahrenheit
@@ -248,4 +257,6 @@ def Mostrar_promedio():
 
 # Potencia_cuadrada()
 
-Mostrar_promedio()
+# Mostrar_promedio()
+
+Perimetro_cuadrado()
