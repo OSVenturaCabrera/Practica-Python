@@ -123,7 +123,10 @@ print("El promedio es: " + str(promedio))
 # --------------------------------
 # Ejercicio 16: Perímetro de un cuadrado
 # --------------------------------
-
+print("Ejercicicio 16")
+lado = float(input("Lado del cuadrado: "))
+ORlin = lado * 4
+print("El perimetro es: " + str(ORlin))
 # --------------------------------
 # Ejercicio 17: Conversor de temperatura
 # Celsius a Fahrenheit
