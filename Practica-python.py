@@ -179,6 +179,7 @@ def Saludo_personal():
 def Potencia_cuadrada():
     """Muestra la Potencia cuadrado de un numero, 
     osea el resultado de un numero al multiplicarse por si mismo."""
+    print("Número al cuadrado")
     num = float(input("Ingresa el numero a elevar a la potencia cuadrada: "))
     cuadrado = num ** 2 # ** es igual a decir "num elevado a la 2"
     print(f"El cuadrado de {num} es igual a {cuadrado}")
@@ -186,6 +187,17 @@ def Potencia_cuadrada():
 # --------------------------------
 # Ejercicio 15: Promedio de tres números
 # --------------------------------
+
+def Mostrar_promedio():
+    """Esta funcion pide 3 numeros al usuario tipo 'decimal' y luego 
+    saca el promedio de esos 3 numeros juntos en formato 'decimal'."""
+    print("Promedio de tres números")
+    num1 = float(input("Ingrese su primera nota: "))
+    num2 = float(input("Ingrese su segunda nota: "))
+    num3 = float(input("Ingrese su tercera nota: "))
+    promedio = float((num1 + num2 + num3) / 3)
+    print(f"Tus notas son: {num1}, {num2}, {num3}")
+    print("El promedio es igual a :" , promedio)
 
 # --------------------------------
 # Ejercicio 16: Perímetro de un cuadrado
@@ -234,4 +246,6 @@ def Potencia_cuadrada():
 
 # Saludo_personal()
 
-Potencia_cuadrada()
+# Potencia_cuadrada()
+
+Mostrar_promedio()
