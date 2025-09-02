@@ -32,7 +32,10 @@ print ( "La suma es:" + str (Suma))
 # --------------------------------
 # Ejercicio 5: Multiplicación
 # --------------------------------
-
+num1 = int (input ("Introduce el primer numero: "))
+num2 = int (input ("Introduce el segundo numero: "))
+Multiplicacion = num1 * num2
+print ("La multiplicacion es: " * str (Multiplicacion))
 # --------------------------------
 # Ejercicio 6: Resta
 # --------------------------------
