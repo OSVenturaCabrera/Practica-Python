@@ -21,12 +21,14 @@ print ("Youre are" + edad + "Years old ")
 # --------------------------------
 print ("Hello "+ nombre + "youre are " + edad + "Years old")
 
-
 # --------------------------------
 # Ejercicio 4: Suma de dos números
 # Nota: convertimos a int para poder sumar
 # --------------------------------
-
+num1 = int (input ( "Introduce el primer numero: "))
+num2 = int ( input ( "Introduce el segundo numero:"))
+suma = num1 + num2
+print ( "La suma es:" + str (Suma))
 # --------------------------------
 # Ejercicio 5: Multiplicación
 # --------------------------------
