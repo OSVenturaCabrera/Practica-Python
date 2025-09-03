@@ -87,7 +87,11 @@ print (f"El area es: {area}")
 # --------------------------------
 # Ejercicio 11: Metros a centímetros
 # --------------------------------
+print ("Ejercicio 11: metros a centimetros: ") #Un metro son 100 centimetros
+metros = float ( input ("Introduce la cantidad de metros a convertir: "))
+centimetros = metros * 100
 
+print (f"{metros} Es el equivalente a {centimetros} centimetros: ")
 # --------------------------------
 # Ejercicio 12: Conversor de dólares a pesos
 # (ejemplo: 1 dólar = 58 pesos)
