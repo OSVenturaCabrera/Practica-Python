@@ -104,7 +104,9 @@ print (f"{dolar} Son {peso} Dominicano")
 # --------------------------------
 # Ejercicio 13: Saludo personalizado
 # --------------------------------
-
+print ("Ejercicio 13: Saludo personalizado")
+Nombre = input ("Cual es tu nombre ?")
+print ("Hola " + Nombre + " Que Dios te bendiga")
 # --------------------------------
 # Ejercicio 14: Número al cuadrado
 # --------------------------------
