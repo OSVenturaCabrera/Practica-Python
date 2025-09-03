@@ -10,12 +10,21 @@
 print("Ejercicio 1: Hola nombre")
 nombre = input("¿Cuál es tu nombre? ")
 print("Klk " + nombre)
+
+str(nombre) = "orlin" # Variable de tipo cadena
+int(edad) = 18 # Variable de tipo entero
+float(altura) = 1.75 # Variable de tipo flotante
 # --------------------------------
 # Ejercicio 2: Edad en un mensaje
 # --------------------------------
 print("Ejercicio 2: Edad en un mensaje")
 edad = input("Cuale es tu edad para no darte una galleta")
 print("Como tienes " + edad + "años, no te doy una galleta")
+
+str(edad) = "18" # Variable de tipo cadena
+int(edad) = 18 # Variable de tipo entero            
+float(edad) = 18.0 # Variable de tipo flotante
+
 # --------------------------------
 # Ejercicio 3: Nombre y edad juntos
 # --------------------------------
@@ -23,6 +32,10 @@ print("Ejercicio 3: Nombre y edad juntos")
 nombre = input("¿Cuál es tu nombre? ")
 edad = input("¿Cuál es tu edad? ")  
 print('hola ' + nombre + ' tienes ' + edad + ' años')
+
+str(Edad) = "18" # varible de tipo cadena 
+int(edad) = 18 # varible de tipo entero
+float(ping) = 18.0 #varible de tipo flotante 
 # --------------------------------
 # Ejercicio 4: Suma de dos números
 # Nota: convertimos a int para poder sumar
@@ -32,6 +45,10 @@ num1 = int(input("Dame un número: "))
 num2 = int(input("Dame otro número: ")) 
 suma = num1 + num2
 print("La suma es: " + str(suma))
+
+str(numero) = "Primero" # varible de tipo cadena 
+int(numero) = 1 #varible de tipo entero 
+float(numero) = 1.0 #varible de tipo falotante 
 # --------------------------------
 # Ejercicio 5: Multiplicación
 # --------------------------------
@@ -41,6 +58,9 @@ num2 = int(input("Numero 2: "))
 multi = num1 * num2
 print("La multiplicacion es: " + str(multi))
 
+str(nombre) = "Orlin" # varible tipo
+int(numero) = 1 # vatible tipo entero
+float(numero) = 1.0 # varible tipo flotante
 # --------------------------------
 # Ejercicio 6: Resta
 # --------------------------------
@@ -50,6 +70,9 @@ num2 = int(input("Dame otro número: "))
 resta = num1 - num2
 print("La resta es: " + str(resta))
 
+str(nombre) = "Orlin" # varible tipo
+int(numero) = 1 # vatible tipo entero
+float(numero) = 1.0 # varible tipo flotante
 # --------------------------------
 # Ejercicio 7: Concatenación de cadenas
 # --------------------------------
@@ -58,6 +81,11 @@ cadena1 = input("Dame una cadena: ")
 cadena2 = input("Dame otra cadena: ") 
 Contatenacion = cadena1 + cadena2
 print("La concatenacion es: " + Contatenacion)
+
+str(nombre) = "Orlin" # varible tipo
+int(numero) = 1 # vatible tipo entero
+float(numero) = 1.0 # varible tipo flotante
+
 # --------------------------------
 # Ejercicio 8: Repetición de texto
 # --------------------------------
@@ -67,6 +95,10 @@ veces = int(input("Cuantas veces Quieres que se repita: "))
 Repe = texto * veces
 print(Repe)
 
+str(nombre) = "Orlin" # varible tipo
+int(numero) = 1 # vatible tipo entero
+float(numero) = 1.0 # varible tipo flotante
+
 # --------------------------------
 # Ejercicio 9: Área de un rectángulo
 # --------------------------------
@@ -75,6 +107,10 @@ base = input("Cual es la base: ")
 altu = input("Altura: ")
 area =  base * altu
 print("EL area es: " + str(area))
+
+str(nombre) = "Orlin" # varible tipo
+int(numero) = 1 # vatible tipo entero
+float(numero) = 1.0 # varible tipo flotante
 # --------------------------------
 # Ejercicio 10: Área de un triángulo
 # --------------------------------
@@ -83,6 +119,10 @@ base = int(input("Base: "))
 Altura = int(input("Altura: "))
 area = (base * Altura) / 2
 print("El area es: " + str(area))
+
+str(nombre) = "Orlin" # varible tipo
+int(numero) = 1 # vatible tipo entero
+float(numero) = 1.0 # varible tipo flotante
 # --------------------------------
 # Ejercicio 11: Metros a centímetros
 # --------------------------------
