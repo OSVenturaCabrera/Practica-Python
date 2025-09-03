@@ -10,12 +10,18 @@
 # --------------------------------
 nombre = input("Ingresa tu nombre: ")  # Guardamos el nombre escrito por el usuario
 print("Hola " + nombre)  # Mostramos un saludo con el nombre
+numero = int (10)
+prom = float (2)
+caract = str ("30")
 
 # --------------------------------
 # Ejercicio 2: Edad en un mensaje
 # --------------------------------
 edad = input("Ingresa tu edad: ")  # Guardamos la edad como texto
 print("Tienes " + edad + " años")  # Mostramos la edad concatenada en una frase
+numero = int (10)
+prom = float (2)
+caract = str ("30")
 
 # --------------------------------
 # Ejercicio 3: Nombre y edad juntos
@@ -23,6 +29,9 @@ print("Tienes " + edad + " años")  # Mostramos la edad concatenada en una frase
 nombre = input("Ingresa tu nombre: ")  # Se pide el nombre
 edad = input("Ingresa tu edad: ")  # Se pide la edad
 print("Hola " + nombre + ", tienes " + edad + " años")  # Se imprimen nombre y edad en un solo mensaje
+numero = int (10)
+prom = float (2)
+caract = str ("30")
 
 # --------------------------------
 # Ejercicio 4: Suma de dos números
@@ -31,6 +40,9 @@ print("Hola " + nombre + ", tienes " + edad + " años")  # Se imprimen nombre y 
 n1 = int(input("Ingresa el primer número: "))  # Se pide el primer número y se convierte a entero
 n2 = int(input("Ingresa el segundo número: "))  # Se pide el segundo número y se convierte a entero
 print("La suma es:", n1 + n2)  # Se suma n1 y n2, y se muestra el resultado
+numero = int (10)
+prom = float (2)
+caract = str ("30")
 
 # --------------------------------
 # Ejercicio 5: Multiplicación
@@ -38,6 +50,9 @@ print("La suma es:", n1 + n2)  # Se suma n1 y n2, y se muestra el resultado
 n1 = int(input("Ingresa el primer número: "))  # Primer número entero
 n2 = int(input("Ingresa el segundo número: "))  # Segundo número entero
 print("La multiplicación es:", n1 * n2)  # Se multiplica n1 por n2
+numero = int (10)
+prom = float (2)
+caract = str ("30")
 
 # --------------------------------
 # Ejercicio 6: Resta
@@ -45,6 +60,9 @@ print("La multiplicación es:", n1 * n2)  # Se multiplica n1 por n2
 n1 = int(input("Ingresa el primer número: "))  # Primer número entero
 n2 = int(input("Ingresa el segundo número: "))  # Segundo número entero
 print("La resta es:", n1 - n2)  # Se resta n2 a n1
+numero = int (10)
+prom = float (2)
+caract = str ("30")
 
 # --------------------------------
 # Ejercicio 7: Concatenación de cadenas
@@ -52,6 +70,9 @@ print("La resta es:", n1 - n2)  # Se resta n2 a n1
 texto1 = input("Escribe la primera palabra: ")  # Se pide un primer texto
 texto2 = input("Escribe la segunda palabra: ")  # Se pide un segundo texto
 print("Concatenación:", texto1 + " " + texto2)  # Se concatenan los dos textos con un espacio en medio
+numero = int (10)
+prom = float (2)
+caract = str ("30")
 
 # --------------------------------
 # Ejercicio 8: Repetición de texto
@@ -59,6 +80,9 @@ print("Concatenación:", texto1 + " " + texto2)  # Se concatenan los dos textos 
 texto = input("Escribe un texto: ")  # Se pide un texto
 veces = int(input("¿Cuántas veces quieres repetirlo?: "))  # Se pide cuántas veces repetirlo
 print((texto + " ") * veces)  # Se repite el texto con un espacio al final, la cantidad indicada
+numero = int (10)
+prom = float (2)
+caract = str ("30")
 
 # --------------------------------
 # Ejercicio 9: Área de un rectángulo
@@ -66,6 +90,9 @@ print((texto + " ") * veces)  # Se repite el texto con un espacio al final, la c
 base = float(input("Ingresa la base del rectángulo: "))  # Se pide la base (número decimal)
 altura = float(input("Ingresa la altura del rectángulo: "))  # Se pide la altura (número decimal)
 print("Área del rectángulo:", base * altura)  # Fórmula: base * altura
+numero = int (10)
+prom = float (2)
+caract = str ("30")
 
 # --------------------------------
 # Ejercicio 10: Área de un triángulo
@@ -73,6 +100,9 @@ print("Área del rectángulo:", base * altura)  # Fórmula: base * altura
 base = float(input("Ingresa la base del triángulo: "))  # Base del triángulo
 altura = float(input("Ingresa la altura del triángulo: "))  # Altura del triángulo
 print("Área del triángulo:", (base * altura) / 2)  # Fórmula: (base * altura) / 2
+numero = int (10)
+prom = float (2)
+caract = str ("30")
 
 # --------------------------------
 # Ejercicio 11: Metros a centímetros
