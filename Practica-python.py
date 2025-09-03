@@ -91,6 +91,9 @@ print("Equivalente en pesos dominicanos:", dolares * tasa)  # Se multiplica dól
 # --------------------------------
 # Ejercicio 13: Saludo personalizado
 # --------------------------------
+nombre = input("Ingresa tu nombre: ")  # Se pide el nombre
+hora = input("¿Qué hora del día es (mañana, tarde, noche)?: ")  # Se pide el momento del día
+print("¡Buenas " + hora + ", " + nombre + "!")  # Se imprime un saludo personalizado
 
 # --------------------------------
 # Ejercicio 14: Número al cuadrado
