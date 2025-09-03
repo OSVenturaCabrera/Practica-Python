@@ -140,3 +140,7 @@ print("La suma de edades es:", edad1 + edad2)  # Se suman ambas edades
 # --------------------------------
 # Ejercicio 20: Mini encuesta
 # --------------------------------
+nombre = input("¿Cómo te llamas?: ")  # Se pide el nombre
+edad = input("¿Cuántos años tienes?: ")  # Se pide la edad
+color = input("¿Cuál es tu color favorito?: ")  # Se pide el color favorito
+print("Resumen de encuesta -> Nombre:", nombre, "| Edad:", edad, "| Color favorito:", color)  # Se muestra el resumen
