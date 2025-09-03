@@ -18,6 +18,9 @@ print ("tienes" + edad + "años")
 # --------------------------------
 # Ejercicio 3: Nombre y edad juntos
 # --------------------------------
+nombre = input("Ingresa tu nombre: ")
+edad = input("Ingresa tu edad: ")
+print("Hola " + nombre + ", tienes " + edad + " años")
 
 # --------------------------------
 # Ejercicio 4: Suma de dos números
