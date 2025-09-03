@@ -10,11 +10,13 @@
 # --------------------------------
 nombre = input("ingresa tu nombre:")
 print ("hola"+ nombre)
+
 # --------------------------------
 # Ejercicio 2: Edad en un mensaje
 # --------------------------------
 edad = input("ingresa tu edad:")
 print ("tienes" + edad + "años")
+
 # --------------------------------
 # Ejercicio 3: Nombre y edad juntos
 # --------------------------------
@@ -26,14 +28,23 @@ print("Hola " + nombre + ", tienes " + edad + " años")
 # Ejercicio 4: Suma de dos números
 # Nota: convertimos a int para poder sumar
 # --------------------------------
+n1 = int(input("Ingresa el primer número: "))
+n2 = int(input("Ingresa el segundo número: "))
+print("La suma es:", n1 + n2)
 
 # --------------------------------
 # Ejercicio 5: Multiplicación
 # --------------------------------
+n1 = int(input("Ingresa el primer número: "))
+n2 = int(input("Ingresa el segundo número: "))
+print("La multiplicación es:", n1 * n2)
 
 # --------------------------------
 # Ejercicio 6: Resta
 # --------------------------------
+n1 = int(input("Ingresa el primer número: "))
+n2 = int(input("Ingresa el segundo número: "))
+print("La multiplicación es:", n1 - n2)
 
 # --------------------------------
 # Ejercicio 7: Concatenación de cadenas
