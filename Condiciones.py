@@ -1,4 +1,4 @@
-#En esta Practica vamos a resolver los siguientes ejercicios utilizando condicionales en Python:
+#En esta Practica vamos a resolver los siguientes ejercicios utilizando condicionales en Python: Starlyn
 #----------------------------------------------------------------------------------------------
 
 #Ejercicio 1: Par o impar
