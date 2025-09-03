@@ -1,4 +1,5 @@
-# =============================
+# =============================starlyn=============================
+# Funciones: Creación y uso de funciones en Python
 # EJERCICIO 1
 # =============================
 # Crea una función llamada "saludar" que reciba un nombre como parámetro
