@@ -13,7 +13,8 @@ print ("hola"+ nombre)
 # --------------------------------
 # Ejercicio 2: Edad en un mensaje
 # --------------------------------
-
+edad = input("ingresa tu edad:")
+print ("tienes" + edad + "años")
 # --------------------------------
 # Ejercicio 3: Nombre y edad juntos
 # --------------------------------
