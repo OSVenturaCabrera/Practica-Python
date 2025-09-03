@@ -126,6 +126,9 @@ print("Equivalente en °F:", fahrenheit)  # Se muestra el resultado en Fahrenhei
 # --------------------------------
 # Ejercicio 18: Calcular sueldo semanal
 # --------------------------------
+horas = float(input("Horas trabajadas en la semana: "))  # Se pide la cantidad de horas trabajadas
+pago_hora = float(input("Pago por hora: "))  # Se pide el pago por hora
+print("Sueldo semanal:", horas * pago_hora)  # Se multiplica horas por pago_hora
 
 # --------------------------------
 # Ejercicio 19: Suma de edades
