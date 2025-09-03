@@ -1,4 +1,5 @@
-# =============================
+# ============================= Starlyn Academy =============================
+# Curso: Introducción a la Programación con Python  
 # Ejercicios básicos de Python
 # Variables, print() e input()
 # =============================
