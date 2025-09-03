@@ -91,12 +91,16 @@ print ("Ejercicio 11: metros a centimetros: ") #Un metro son 100 centimetros
 metros = float ( input ("Introduce la cantidad de metros a convertir: "))
 centimetros = metros * 100
 
-print (f"{metros} Es el equivalente a {centimetros} centimetros: ")
+print (f"{metros} Metro es el equivalente a {centimetros} centimetros: ")
 # --------------------------------
 # Ejercicio 12: Conversor de dólares a pesos
 # (ejemplo: 1 dólar = 58 pesos)
 # --------------------------------
+print ("Ejercicio 12: Convertir dolares a peso")
+dolar = float(input("Que cantidad de dolar quieres convertir ?: "))
+peso = dolar * 58
 
+print (f"{dolar} Son {peso} Dominicano")
 # --------------------------------
 # Ejercicio 13: Saludo personalizado
 # --------------------------------
