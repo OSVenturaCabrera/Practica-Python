@@ -77,11 +77,16 @@ print("Área del triángulo:", (base * altura) / 2)  # Fórmula: (base * altura)
 # --------------------------------
 # Ejercicio 11: Metros a centímetros
 # --------------------------------
+metros = float(input("Ingresa la cantidad en metros: "))  # Se pide la cantidad en metros
+print("Equivalente en centímetros:", metros * 100)  # Se multiplica por 100 (1 m = 100 cm)g
 
 # --------------------------------
 # Ejercicio 12: Conversor de dólares a pesos
 # (ejemplo: 1 dólar = 58 pesos)
 # --------------------------------
+dolares = float(input("Ingresa la cantidad en dólares: "))  # Se pide la cantidad en dólares
+tasa = 58  # Definimos la tasa de cambio: 1 dólar = 58 pesos dominicanos
+print("Equivalente en pesos dominicanos:", dolares * tasa)  # Se multiplica dólares por t
 
 # --------------------------------
 # Ejercicio 13: Saludo personalizado
