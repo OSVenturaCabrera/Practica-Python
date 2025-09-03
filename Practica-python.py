@@ -118,7 +118,13 @@ print (f"El resultado es {num1}")
 # --------------------------------
 # Ejercicio 15: Promedio de tres números
 # --------------------------------
+print ("Ejercicio 15: Promedio de 3 numeros")
+num1 = float(input("Introduce el primer numero: "))
+num2 = float(input("Introduce el segundo numero: "))
+num3 = float(input("Introduce el tercer numero: "))
+promedio = (num1 + num2 + num3)/3
 
+print (f"El promedio es {promedio}")
 # --------------------------------
 # Ejercicio 16: Perímetro de un cuadrado
 # --------------------------------
