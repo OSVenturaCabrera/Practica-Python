@@ -94,10 +94,11 @@ print("Equivalente en pesos dominicanos:", dolares * tasa)  # Se multiplica dól
 nombre = input("Ingresa tu nombre: ")  # Se pide el nombre
 hora = input("¿Qué hora del día es (mañana, tarde, noche)?: ")  # Se pide el momento del día
 print("¡Buenas " + hora + ", " + nombre + "!")  # Se imprime un saludo personalizado
-
 # --------------------------------
 # Ejercicio 14: Número al cuadrado
 # --------------------------------
+numero = int(input("Ingresa un número: "))  # Se pide un número entero
+print("El cuadrado es:", numero ** 2)  # Se eleva al cuadrado usando **
 
 # --------------------------------
 # Ejercicio 15: Promedio de tres números
