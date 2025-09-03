@@ -63,11 +63,16 @@ print((texto + " ") * veces)  # Se repite el texto con un espacio al final, la c
 # --------------------------------
 # Ejercicio 9: Área de un rectángulo
 # --------------------------------
-
+base = float(input("Ingresa la base del rectángulo: "))  # Se pide la base (número decimal)
+altura = float(input("Ingresa la altura del rectángulo: "))  # Se pide la altura (número decimal)
+print("Área del rectángulo:", base * altura)  # Fórmula: base * altura
 
 # --------------------------------
 # Ejercicio 10: Área de un triángulo
 # --------------------------------
+base = float(input("Ingresa la base del triángulo: "))  # Base del triángulo
+altura = float(input("Ingresa la altura del triángulo: "))  # Altura del triángulo
+print("Área del triángulo:", (base * altura) / 2)  # Fórmula: (base * altura) / 2
 
 # --------------------------------
 # Ejercicio 11: Metros a centímetros
