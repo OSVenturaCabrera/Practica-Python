@@ -103,6 +103,10 @@ print("El cuadrado es:", numero ** 2)  # Se eleva al cuadrado usando **
 # --------------------------------
 # Ejercicio 15: Promedio de tres números
 # --------------------------------
+n1 = float(input("Ingresa el primer número: "))  # Primer número
+n2 = float(input("Ingresa el segundo número: "))  # Segundo número
+n3 = float(input("Ingresa el tercer número: "))  # Tercer número
+print("El promedio es:", (n1 + n2 + n3) / 3)  # Fórmula: suma de los 3 dividido entre 3
 
 # --------------------------------
 # Ejercicio 16: Perímetro de un cuadrado
