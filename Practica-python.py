@@ -110,7 +110,11 @@ print ("Hola " + Nombre + " Que Dios te bendiga")
 # --------------------------------
 # Ejercicio 14: Número al cuadrado
 # --------------------------------
+print ("Ejercico 14: numero al cuadrado")
+num1 = int (input("Introduce el numero: "))
+num1 = num1 * num1
 
+print (f"El resultado es {num1}")
 # --------------------------------
 # Ejercicio 15: Promedio de tres números
 # --------------------------------
