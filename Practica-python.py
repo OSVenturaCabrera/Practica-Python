@@ -139,15 +139,47 @@ print(f"El perímetro del cuadrado es: {perimetro}")
 # Celsius a Fahrenheit
 # Fórmula: F = C * 9/5 + 32
 # --------------------------------
+print("Ejercicio 17: Conversor de temperatura")
+celsius = float(input("Introduce la temperatura en grados Celsius: "))
+fahrenheit = celsius * 9/5 + 32
+
+print(f"{celsius}°C equivalen a {fahrenheit}°F")
 
 # --------------------------------
 # Ejercicio 18: Calcular sueldo semanal
 # --------------------------------
+print("Ejercicio 18: Calcular sueldo semanal")
+hora = float(input("Introduce las horas trabajadas en la semana: "))
+pago = float(input("Introduce el pago por hora: "))
+
+sueldo_por_semana = hora * pago
+
+print(f"El sueldo semanal es: {sueldo_por_semana}")
 
 # --------------------------------
 # Ejercicio 19: Suma de edades
 # --------------------------------
+print("Ejercicio 19: Suma de edades")
+edad1 = int(input("Introduce la primera edad: "))
+edad2 = int(input("Introduce la segunda edad: "))
+Ambas_edades = edad1 + edad2
+
+print(f"La suma de las edades es: {Ambas_edades}")
 
 # --------------------------------
 # Ejercicio 20: Mini encuesta
 # --------------------------------
+print("Ejercicio 20: Mini encuesta")
+
+marca = input("¿Que carro te gusta? ")
+modelo = input("Que modelo ?")
+color_favorito = input("¿Cuál es tu color favorito? ")
+
+marca = "bmw"
+if marca == "bmw":
+ print ("ESO E DE HOMBRE")
+print(f"Modelo: {modelo}")
+print (f"Color favorito: {color_favorito}") #PA CURAME
+
+
+
