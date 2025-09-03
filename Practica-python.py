@@ -119,6 +119,9 @@ print("Perímetro del cuadrado:", lado * 4)  # Fórmula: lado * 4
 # Celsius a Fahrenheit
 # Fórmula: F = C * 9/5 + 32
 # --------------------------------
+celsius = float(input("Ingresa la temperatura en °C: "))  # Se pide la temperatura en Celsius
+fahrenheit = celsius * 9/5 + 32  # Se aplica la fórmula de conversión
+print("Equivalente en °F:", fahrenheit)  # Se muestra el resultado en Fahrenheit
 
 # --------------------------------
 # Ejercicio 18: Calcular sueldo semanal
