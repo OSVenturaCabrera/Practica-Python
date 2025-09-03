@@ -133,6 +133,9 @@ print("Sueldo semanal:", horas * pago_hora)  # Se multiplica horas por pago_hora
 # --------------------------------
 # Ejercicio 19: Suma de edades
 # --------------------------------
+edad1 = int(input("Edad de la primera persona: "))  # Se pide la primera edad
+edad2 = int(input("Edad de la segunda persona: "))  # Se pide la segunda edad
+print("La suma de edades es:", edad1 + edad2)  # Se suman ambas edades
 
 # --------------------------------
 # Ejercicio 20: Mini encuesta
