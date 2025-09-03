@@ -68,7 +68,12 @@ for i in range (veces): #Siempre necesitara un numero entero.
 # --------------------------------
 # Ejercicio 9: Área de un rectángulo
 # --------------------------------
+print ("Ejercicio 9: area de un triangulo")
+base = float( input("Introduce la medida de la base:"))
+altura = float( input("Introduce la medida de la altura:"))
+area = base * altura /2
 
+print (f"El area es: {area}")
 # --------------------------------
 # Ejercicio 10: Área de un triángulo
 # --------------------------------
