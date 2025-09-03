@@ -111,6 +111,8 @@ print("El promedio es:", (n1 + n2 + n3) / 3)  # Fórmula: suma de los 3 dividido
 # --------------------------------
 # Ejercicio 16: Perímetro de un cuadrado
 # --------------------------------
+lado = float(input("Ingresa la medida de un lado del cuadrado: "))  # Longitud de un lado
+print("Perímetro del cuadrado:", lado * 4)  # Fórmula: lado * 4
 
 # --------------------------------
 # Ejercicio 17: Conversor de temperatura
