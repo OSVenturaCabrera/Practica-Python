@@ -1,0 +1,17 @@
+# Bucle: Repetición de tareas utilizando bucles en Python
+#----------------------------------------------------------------------------------------------
+
+# Ejercicio 1: Contar del 1 al 10
+#------------------------------------
+
+# Ejercicio 2: Suma de los primeros n números
+#------------------------------------
+
+# Ejercicio 3: Tabla de multiplicar
+#------------------------------------
+
+# Ejercicio 4: Adivina el número
+#------------------------------------
+
+# Ejercicio 5: Verificar si un número es primo
+#------------------------------------
