@@ -128,6 +128,11 @@ print (f"El promedio es {promedio}")
 # --------------------------------
 # Ejercicio 16: Perímetro de un cuadrado
 # --------------------------------
+print("Ejercicio 16: perimetro cuadrado")
+lado = float(input("Introduce la longitud de un lado del cuadrado: "))
+perimetro = 4 * lado
+
+print(f"El perímetro del cuadrado es: {perimetro}")
 
 # --------------------------------
 # Ejercicio 17: Conversor de temperatura
