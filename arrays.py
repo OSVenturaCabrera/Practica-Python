@@ -1,4 +1,4 @@
-# =============================  =============================
+# ============================= matthews =============================
 # EJERCICIO 1: Crear lista de números
 # =============================
 # Crea una lista con 10 números ingresados por el usuario.
