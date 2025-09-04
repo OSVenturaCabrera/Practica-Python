@@ -64,7 +64,7 @@ print("el resultado es " , resultado)
 print("ejercicio 7")
 print("introduce dos palabras")
 texto1 = input("Escribe la primera palabra ")
-texto2 = input("Escribe la segunda palabra ")
+texto2 = input("Escribe la segunda palabraa ")
 
 resultado = texto1  + texto2
 print("tu palabra es " , resultado)
