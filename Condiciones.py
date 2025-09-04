@@ -43,13 +43,30 @@ else:
 
 # Ejercicio 5: Cajero automático básico
 #------------------------------------
+import os # libreria para usar comandos de la consola 'ejemplo: cls'
+os.system("cls")
+
+Nombre = "Orlin Ventura"
+Dinero = 12000
+
 print("1: depositar 2: Retirar 3: consultar")
 num1 = int(input("Digite un numero: "))
 if num1 == 1:
-    print("gracias por retirar")
-elif num1 == 1:
-    print("gracias por depositar")
+    deposito =float(input("Ingrese cantidad: "))
+    Deposito_nuevo = Dinero + deposito
+    print("Banlance anterio: " + str(Dinero))
+    print("Blance nuevo: " + str(Deposito_nuevo))
+    print("gracias por Deposito: " + str(Nombre))
+
+elif num1 == 2:
+    print("Balance: " + str(Dinero))
+    Retirar =float(input("Ingrese cantidad a retirar: "))
+    retiro_nuevo = Dinero - Retirar
+    print("Blance nuevo: " + str(retiro_nuevo))
+    print("gracias por Retirar: " + str(Nombre))
+
 elif num1 == 3:
-    print("gracias por consultar")
+    print("Usted tiene: " + str(Dinero))
+    print("gracias por Por consultar: " + str(Nombre))
 else:
     print("Error")
