@@ -13,7 +13,7 @@
 # Crea una función que calcule el promedio y diga si está aprobado (>=70) o reprobado.
 
 
-# =============================
+# ===========================
 # EJERCICIO 3: Factorial
 # =============================
 # Pide un número al usuario.

@@ -1,4 +1,4 @@
-#En esta Practica vamos a resolver los siguientes ejercicios utilizando condicionales en Python: Emil
+#En esta Practica vamos a resolver los siguientes ejercicios utilizando condicionales en Python: Emil 1
 #----------------------------------------------------------------------------------------------
 
 #Ejercicio 1: Par o impar
