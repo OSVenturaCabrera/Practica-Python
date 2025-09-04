@@ -1,4 +1,4 @@
-# =============================starlyn Resivido=============================
+# =============================starlyn Resivido 1=============================
 # EJERCICIO 1: Lista de números
 # =============================
 # Pedir al usuario que ingrese 5 números y guardarlos en una lista.

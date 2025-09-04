@@ -1,4 +1,4 @@
-# =============================starlyn Resivido=============================     
+# =============================starlyn Resivido 1=============================     
 # EJERCICIO 1: Suma de números
 # =============================
 # Pide al usuario que ingrese 5 números.
