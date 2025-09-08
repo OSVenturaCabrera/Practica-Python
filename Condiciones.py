@@ -1,4 +1,4 @@
-#------------ORlin-----------------
+#------------ORlin Ventura-----------------
 #En esta Practica vamos a resolver los siguientes ejercicios utilizando condicionales en Python: 
 #----------------------------------------------------------------------------------------------
 
