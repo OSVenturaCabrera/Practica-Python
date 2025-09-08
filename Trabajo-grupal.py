@@ -3,7 +3,21 @@
 # =============================
 # Pide al usuario que ingrese 5 números.
 # Guarda los números en una lista y crea una función que calcule la suma de todos ellos.
+print('EJERCICIO 1: Suma de números')
+print('=============================')
+Numero = []
+for i in range(5):
+    num = int(input(f"Dame el numero {i+1}: "))
+    Numero.append(num)
+# print(Numero)
+print('=============================')
 
+def suma_Numero():
+    suma = sum(Numero)
+    print(f" La suma de los numero es: {suma}")
+
+print('=============================')
+suma_Numero()
 
 # =============================
 # EJERCICIO 2: Promedio de calificaciones
