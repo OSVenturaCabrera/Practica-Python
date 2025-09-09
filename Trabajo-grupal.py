@@ -27,6 +27,25 @@
 # Pide al usuario 10 números.
 # Guarda los números en una lista.
 # Crea una función que recorra la lista y devuelva dos listas: una con los pares y otra con los impares.
+#starlyn
+def separar_pares_impares(lista):
+    pares = []
+    impares = []
+    for n in lista:
+        if n % 2 == 0:
+            pares.append(n)
+        else:
+            impares.append(n)
+    return pares, impares
+
+numero = []
+for i in range(10):
+    n = int(input(f'ingrese el numero {i+1}:'))
+    numero.append(n)
+ 
+pares, impares = separar_pares_impares(numero)
+print('numeros pares', pares)
+print('numeros impares', impares)
 
 
 # =============================
